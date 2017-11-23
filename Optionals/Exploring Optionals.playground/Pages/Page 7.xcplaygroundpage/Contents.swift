@@ -19,8 +19,13 @@
  ![optional-binding](optional-binding.png)
  
  */
-// Type the code below this line
-
+// Type your code below this line
+var dayOfWeek : String? = "Monday"
+if let day = dayOfWeek {
+    print("The day is \(day)")
+}else{
+    print("no day was provided")
+}
 /*:
  Line 2 is the key.
  
